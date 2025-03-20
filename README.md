@@ -36,3 +36,20 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/your-username/music-discovery-app.git
    cd music-discovery-app
+2. **Install Dependencies:**
+
+bash
+Copy
+npm install
+Set Up Spotify API Credentials:
+
+Create a Spotify Developer account and register a new app here.
+
+Replace the SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET in App.js with your credentials.
+
+Run the App:
+
+bash
+Copy
+npx expo start
+Scan the QR code with the Expo Go app on your phone or run it in a web browser.
